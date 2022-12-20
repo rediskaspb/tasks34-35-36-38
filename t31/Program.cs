@@ -20,9 +20,9 @@ int[] GetRandomArray(int length, int leftRange, int rightRange)
 
     for(int i = 0; i < array.Length; i++)
     {
-        if (array[i] > 0) //если эл-т полодит
+        if (array[i] > 0) //если эл-т положит
         {
-            sumPositive += array[i]; //копить полодит сумму
+            sumPositive += array[i]; //копить положит сумму
         }
         else //если эл-т отрицат 
         {
